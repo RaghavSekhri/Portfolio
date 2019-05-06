@@ -1,0 +1,163 @@
+html {
+  margin: 0;
+  padding: 0;
+  margin-top: -20px;
+}
+body{
+  font-family:Avenir Next;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  background-image: url("2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.header{
+  height:90px;
+}
+li{
+  list-style:none;
+  font-color:black;
+}
+.header-list li{
+  float:left;
+  padding:33px 20px;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.header-logo{
+  font-size:36px;
+  float:left;
+  padding:20px 40px;
+}
+.main{
+  height:800px;
+}
+.footer{
+  height:250px;
+  color:#ff6b81;
+}
+.footer-logo{
+  margin-top:30px;
+  margin-left:-25px;
+  padding:50px;
+  font-size:32px;
+  float:left;
+  width: 33%;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.footer-logo a{
+  color:brown !important;
+}
+.social {
+  width: 33%;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size:30px;
+  margin-top: 70px;
+}
+.social p{
+  position: relative;
+  top:-40px;
+  text-align: center;
+}
+.social-icons marquee {
+  position: relative;
+  top : -40px;
+}
+.social-icons ul li{
+  font-size:30px;
+    display: inline-block;
+}
+.footer-list{
+  margin-top:55px;
+  width: 33%;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.footer-list ul {
+  float: right;
+}
+.footer-list ul li{
+  padding:top:20px;
+  padding-bottom:20px;
+}
+a:link, a:visited {
+  color:#fff;
+  text-decoration:none;
+  cursor:linkselector;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  color:#30336b;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  margin-top:-11px;
+}
+.button:hover{
+  background-color:#f8a5c2;
+  color: brown;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.card-container {
+  cursor: pointer;
+  height: 250px;
+  /* perspective: 600; */
+  position: relative;
+  width: 300px;
+  margin-left: 359px;
+  float:left;
+  margin-left:310px;
+  margin-bottom:100px;
+}
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all .5s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  background-color:#ddd;
+}
+.card .back {
+  background:#ddd;
+  color: #0087cc;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+  cursor:auto;
+}
+.side img{
+  height:60%;
+  width:100%
+}
+.back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.side p{
+  color:black;
+}
+.side a {
+  font-size: 50px;
+}
+.fa {
+  color:#c0392b;
+}
